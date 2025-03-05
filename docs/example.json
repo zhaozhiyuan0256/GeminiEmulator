@@ -1,0 +1,779 @@
+[
+    {
+        "gemini-1": {
+            "up_neighbor_info": [
+                "gemini-2",
+                73.92291834172137
+            ],
+            "down_neighbor_info": [
+                "gemini-3",
+                73.91284433662791
+            ],
+            "left_neighbor_info": [
+                "gemini-7",
+                42.76409144677251
+            ],
+            "right_neighbor_info": [
+                "gemini-4",
+                49.244358654915246
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-2": {
+            "up_neighbor_info": [
+                "gemini-3",
+                73.8943077386973
+            ],
+            "down_neighbor_info": [
+                "gemini-1",
+                73.92291834172137
+            ],
+            "left_neighbor_info": [
+                "gemini-8",
+                68.84184614502271
+            ],
+            "right_neighbor_info": [
+                "gemini-5",
+                74.19304086733112
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-3": {
+            "up_neighbor_info": [
+                "gemini-1",
+                73.91284433662791
+            ],
+            "down_neighbor_info": [
+                "gemini-2",
+                73.8943077386973
+            ],
+            "left_neighbor_info": [
+                "gemini-9",
+                59.02323692076197
+            ],
+            "right_neighbor_info": [
+                "gemini-6",
+                64.62400243784093
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-4": {
+            "up_neighbor_info": [
+                "gemini-5",
+                73.92223857028003
+            ],
+            "down_neighbor_info": [
+                "gemini-6",
+                73.917254852189
+            ],
+            "left_neighbor_info": [
+                "gemini-1",
+                49.244358654915246
+            ],
+            "right_neighbor_info": [
+                "gemini-7",
+                45.64330119514587
+            ],
+            "ground_neighbor_info": [
+                [
+                    "core-1",
+                    31.982529534867105
+                ],
+                [
+                    "ue-1",
+                    31.158118483286284
+                ]
+            ]
+        },
+        "gemini-5": {
+            "up_neighbor_info": [
+                "gemini-6",
+                73.89478965977636
+            ],
+            "down_neighbor_info": [
+                "gemini-4",
+                73.92223857028003
+            ],
+            "left_neighbor_info": [
+                "gemini-2",
+                74.19304086733112
+            ],
+            "right_neighbor_info": [
+                "gemini-8",
+                71.19978330640475
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-6": {
+            "up_neighbor_info": [
+                "gemini-4",
+                73.917254852189
+            ],
+            "down_neighbor_info": [
+                "gemini-5",
+                73.89478965977636
+            ],
+            "left_neighbor_info": [
+                "gemini-3",
+                64.62400243784093
+            ],
+            "right_neighbor_info": [
+                "gemini-9",
+                64.13317492364504
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-7": {
+            "up_neighbor_info": [
+                "gemini-8",
+                73.91977071306704
+            ],
+            "down_neighbor_info": [
+                "gemini-9",
+                73.91542790568077
+            ],
+            "left_neighbor_info": [
+                "gemini-4",
+                45.64330119514587
+            ],
+            "right_neighbor_info": [
+                "gemini-1",
+                42.76409144677251
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-8": {
+            "up_neighbor_info": [
+                "gemini-9",
+                73.89337711932869
+            ],
+            "down_neighbor_info": [
+                "gemini-7",
+                73.91977071306704
+            ],
+            "left_neighbor_info": [
+                "gemini-5",
+                71.19978330640475
+            ],
+            "right_neighbor_info": [
+                "gemini-2",
+                68.84184614502271
+            ],
+            "ground_neighbor_info": null
+        },
+        "gemini-9": {
+            "up_neighbor_info": [
+                "gemini-7",
+                73.91542790568077
+            ],
+            "down_neighbor_info": [
+                "gemini-8",
+                73.89337711932869
+            ],
+            "left_neighbor_info": [
+                "gemini-6",
+                64.13317492364504
+            ],
+            "right_neighbor_info": [
+                "gemini-3",
+                59.02323692076197
+            ],
+            "ground_neighbor_info": null
+        },
+        "core-1": {
+            "sat_neighbor_info": [
+                "gemini-4",
+                31.982529534867105
+            ]
+        },
+        "ue-1": {
+            "sat_neighbor_info": [
+                "gemini-4",
+                31.158118483286284
+            ]
+        }
+    },
+    {
+        "gemini-1": {
+            "gemini-1": [
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-1",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-1",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-1",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-1",
+                "gemini-4",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-1",
+                "gemini-4",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-1",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-1",
+                "gemini-7",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-1",
+                "gemini-7",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-1",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-1",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-2": {
+            "gemini-1": [
+                "gemini-2",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-2",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-2",
+                "gemini-1",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-2",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-2",
+                "gemini-3",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-2",
+                "gemini-1",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-2",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-2",
+                "gemini-3",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-2",
+                "gemini-1",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-2",
+                "gemini-1",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-3": {
+            "gemini-1": [
+                "gemini-3",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-3",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-3",
+                "gemini-1",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-3",
+                "gemini-6",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-3",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-3",
+                "gemini-1",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-3",
+                "gemini-9",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-3",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-3",
+                "gemini-1",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-3",
+                "gemini-1",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-4": {
+            "gemini-1": [
+                "gemini-4",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-4",
+                "gemini-1",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-4",
+                "gemini-1",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-4",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-4",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-4",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-4",
+                "gemini-7",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-4",
+                "gemini-7",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-5": {
+            "gemini-1": [
+                "gemini-5",
+                "gemini-4",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-5",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-5",
+                "gemini-6",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-5",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-5",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-5",
+                "gemini-4",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-5",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-5",
+                "gemini-6",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-5",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-5",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-6": {
+            "gemini-1": [
+                "gemini-6",
+                "gemini-4",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-6",
+                "gemini-3",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-6",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-6",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-6",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-6",
+                "gemini-4",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-6",
+                "gemini-9",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-6",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-6",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-6",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-7": {
+            "gemini-1": [
+                "gemini-7",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-7",
+                "gemini-1",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-7",
+                "gemini-1",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-7",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-7",
+                "gemini-4",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-7",
+                "gemini-4",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-7",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-7",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-7",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-7",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-8": {
+            "gemini-1": [
+                "gemini-8",
+                "gemini-7",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-8",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-8",
+                "gemini-9",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-8",
+                "gemini-7",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-8",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-8",
+                "gemini-9",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-8",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-8",
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-8",
+                "gemini-7",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-8",
+                "gemini-7",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "gemini-9": {
+            "gemini-1": [
+                "gemini-9",
+                "gemini-7",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "gemini-9",
+                "gemini-3",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "gemini-9",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "gemini-9",
+                "gemini-7",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "gemini-9",
+                "gemini-6",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "gemini-9",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "gemini-9",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "gemini-9",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "gemini-9"
+            ],
+            "core-1": [
+                "gemini-9",
+                "gemini-7",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "gemini-9",
+                "gemini-7",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "core-1": {
+            "gemini-1": [
+                "core-1",
+                "gemini-4",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "core-1",
+                "gemini-4",
+                "gemini-1",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "core-1",
+                "gemini-4",
+                "gemini-1",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "core-1",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "core-1",
+                "gemini-4",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "core-1",
+                "gemini-4",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "core-1",
+                "gemini-4",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "core-1",
+                "gemini-4",
+                "gemini-7",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "core-1",
+                "gemini-4",
+                "gemini-7",
+                "gemini-9"
+            ],
+            "core-1": [
+                "core-1"
+            ],
+            "ue-1": [
+                "core-1",
+                "gemini-4",
+                "ue-1"
+            ]
+        },
+        "ue-1": {
+            "gemini-1": [
+                "ue-1",
+                "gemini-4",
+                "gemini-1"
+            ],
+            "gemini-2": [
+                "ue-1",
+                "gemini-4",
+                "gemini-1",
+                "gemini-2"
+            ],
+            "gemini-3": [
+                "ue-1",
+                "gemini-4",
+                "gemini-1",
+                "gemini-3"
+            ],
+            "gemini-4": [
+                "ue-1",
+                "gemini-4"
+            ],
+            "gemini-5": [
+                "ue-1",
+                "gemini-4",
+                "gemini-5"
+            ],
+            "gemini-6": [
+                "ue-1",
+                "gemini-4",
+                "gemini-6"
+            ],
+            "gemini-7": [
+                "ue-1",
+                "gemini-4",
+                "gemini-7"
+            ],
+            "gemini-8": [
+                "ue-1",
+                "gemini-4",
+                "gemini-7",
+                "gemini-8"
+            ],
+            "gemini-9": [
+                "ue-1",
+                "gemini-4",
+                "gemini-7",
+                "gemini-9"
+            ],
+            "core-1": [
+                "ue-1",
+                "gemini-4",
+                "core-1"
+            ],
+            "ue-1": [
+                "ue-1"
+            ]
+        }
+    }
+]

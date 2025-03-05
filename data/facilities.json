@@ -1,0 +1,12 @@
+{
+    "core-1": {
+        "type": "core",
+        "latitude": 20,
+        "longitude": 20
+    },
+    "ue-1": {
+        "type": "ue",
+        "latitude": 30,
+        "longitude": 30
+    }
+}

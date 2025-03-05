@@ -1,0 +1,137 @@
+{
+    "host-1": {
+        "type": "host",
+        "ip": "10.192.56.230",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD"
+    },
+    "host-2": {
+        "type": "host",
+        "ip": "10.192.56.202",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD"
+    },
+    "core-1": {
+        "type": "core",
+        "ip": "10.192.56.22",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-1",
+        "nic_name": "enp1s0",
+        "ovs_port": 2,
+        "mac_address": "52:54:00:00:01:02"
+    },
+    "ue-1": {
+        "type": "ue",
+        "ip": "10.192.56.41",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 11,
+        "mac_address": "52:54:00:00:02:01"
+    },
+    "gemini-1": {
+        "type": "sat",
+        "ip": "10.192.56.11",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 2,
+        "mac_address": "52:54:00:00:00:01"
+    },
+    "gemini-2": {
+        "type": "sat",
+        "ip": "10.192.56.12",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 3,
+        "mac_address": "52:54:00:00:00:02"
+    },
+    "gemini-3": {
+        "type": "sat",
+        "ip": "10.192.56.13",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 4,
+        "mac_address": "52:54:00:00:00:03"
+    },
+    "gemini-4": {
+        "type": "sat",
+        "ip": "10.192.56.14",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 5,
+        "mac_address": "52:54:00:00:00:04"
+    },
+    "gemini-5": {
+        "type": "sat",
+        "ip": "10.192.56.15",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 6,
+        "mac_address": "52:54:00:00:00:05"
+    },
+    "gemini-6": {
+        "type": "sat",
+        "ip": "10.192.56.16",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 7,
+        "mac_address": "52:54:00:00:00:06"
+    },
+    "gemini-7": {
+        "type": "sat",
+        "ip": "10.192.56.17",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 8,
+        "mac_address": "52:54:00:00:00:07"
+    },
+    "gemini-8": {
+        "type": "sat",
+        "ip": "10.192.56.18",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 9,
+        "mac_address": "52:54:00:00:00:08"
+    },
+    "gemini-9": {
+        "type": "sat",
+        "ip": "10.192.56.19",
+        "ssh_port": 22,
+        "username": "root",
+        "password": "YOUR_PASSWORD",
+        "parent_host_name": "host-2",
+        "nic_name": "enp1s0",
+        "ovs_port": 10,
+        "mac_address": "52:54:00:00:00:09"
+    }
+}
